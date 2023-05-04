@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Markdown 效果展示</title>
+    <url>/2022/12/92a4a045.html</url>
+    <content><![CDATA[<p><strong>粗体</strong> <em>斜体</em> <em><strong>粗斜体</strong></em> 正常</p>
+<span id="more"></span>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<h4 id="四级标题">四级标题</h4>
+<h5 id="五级标题">五级标题</h5>
+<h6 id="六级标题">六级标题</h6>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo>=</mo><mi>G</mi><mo>=</mo><mi>m</mi><mi>g</mi><mo>=</mo><mn>1</mn><mi>k</mi><mi>g</mi><mo separator="true">⋅</mo><mn>9.8</mn><mi>N</mi><mi mathvariant="normal">/</mi><mi>k</mi><mi>g</mi><mo>=</mo><mn>9.8</mn><mi>N</mi></mrow><annotation encoding="application/x-tex">F=G=mg=1kg·9.8N/kg=9.8N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">G</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">m</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mpunct">⋅</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">9.8</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">9.8</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span></span></span></span></p>
+<blockquote>
+<p>引用</p>
+<blockquote>
+<p>引用</p>
+</blockquote>
+</blockquote>
+<ol>
+<li>有序列表</li>
+<li>有序列表</li>
+<li>有序列表</li>
+</ol>
+<ul>
+<li>无序列表</li>
+<li>无序列表</li>
+<li>无序列表</li>
+</ul>
+<p>分割线</p>
+<hr>
+<p><a href="https://markdown.com.cn">这是一个链接</a>。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">姓名</th>
+<th style="text-align:center">成绩</th>
+<th style="text-align:right">成绩</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">李华</td>
+<td style="text-align:center">11</td>
+<td style="text-align:right">14</td>
+</tr>
+<tr>
+<td style="text-align:left">豆豆</td>
+<td style="text-align:center">45</td>
+<td style="text-align:right">44</td>
+</tr>
+</tbody>
+</table>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> main&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    cin&gt;&gt;n;</span><br><span class="line">    cout&lt;&lt;n;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="https://i0.hdslb.com/bfs/album/335657374a640f1748c290003b8851caa7db114d.png" alt=""></p>
+<p>这是 <abbr title="注释内容">被注释文本</abbr></p>
+<p>上标<sup>示例</sup></p>
+<p>下标<sub>示例</sub></p>
+<p>脚注示例<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<div class="tips">
+<p><strong>提示</strong><br>
+这是一个提示</p>
+</div>
+<div class="warning">
+<p><strong>注意</strong><br>
+这是一个警告</p>
+</div>
+<div class="danger">
+<p><strong>警告</strong><br>
+这是一个危险信号</p>
+</div>
+<div class="success">
+<p><strong>成功</strong><br>
+这是一个成功信号</p>
+</div>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>脚注是指附在文章页面的最底端的，对某些东西加以说明的注文。 <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <categories>
+        <category>站务</category>
+      </categories>
+      <tags>
+        <tag>站务</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>图床测试</title>
+    <url>/2022/12/f672cc4e.html</url>
+    <content><![CDATA[<p>原作者 <a href="https://tysontan.com/home-zh/">TysonTan</a> ，感谢 <a href="https://kde.org/zh-cn/">KDE</a> 、<a href="https://krita.org/">Krita</a> 和 <a href="https://aosc.io/zh-cn/">安同开源社区</a> 采取开放的协议。</p>
+<p>原图未作修改，仅借助 <a href="https://github.com/AaronFeng753/Waifu2x-Extension-GUI/">Waifu2x-Extension-GUI</a> 使用 <a href="https://github.com/bloc97/Anime4K">Anime4K</a> 引擎超分至 6K+ 。</p>
+<span id="more"></span>
+<h3 id="6MB-小图">6MB 小图</h3>
+<p><img src="https://i0.hdslb.com/bfs/album/9b1144e9b656a2bbfa0873f264184bcd84eae83f.png" alt=""></p>
+<p><img src="https://i0.hdslb.com/bfs/album/19c19fe735d990940303ed976b754d988c05aadb.png" alt=""></p>
+<p><img src="https://i0.hdslb.com/bfs/album/13b713d6740f4f05acd45d0eceba7fc8cef7aded.png" alt=""></p>
+<p><img src="https://i0.hdslb.com/bfs/album/4fe1d6967c3dffdd3de2961ee168b77ca02d38c6.png" alt=""></p>
+<p><img src="https://i0.hdslb.com/bfs/album/cbe27b8039ae36ca2e7eca6896815f2efef324c6.png" alt=""></p>
+<p><img src="https://i0.hdslb.com/bfs/album/9826e6c955b9d72d52e02baede10764492809c92.png" alt=""></p>
+<p><img src="https://i0.hdslb.com/bfs/album/1718b271eebaf34eb74efc6e1aa190e2b3d038c9.png" alt=""></p>
+<p><img src="https://i0.hdslb.com/bfs/album/fe6cb82742099c444c9e26a21984eb5c92f95ff2.png" alt=""></p>
+<p><img src="https://i0.hdslb.com/bfs/album/f350c9269cbe27150c535a7a6c8d8f809708042a.png" alt=""></p>
+<p><img src="https://i0.hdslb.com/bfs/album/78713d2ac37dd39489ac17a3898c5bcc392ffe4b.png" alt=""></p>
+<p><img src="https://i0.hdslb.com/bfs/album/fa67ee941daf6a515c5d14ceb243fb369bcfe3e4.png" alt=""></p>
+<h3 id="10MB-中图">10MB 中图</h3>
+<p><img src="https://i0.hdslb.com/bfs/album/3476724342a603a7c9b0a332d79c09e1be963df9.png" alt=""></p>
+<h3 id="15MB-较大图">15MB 较大图</h3>
+<p><img src="https://i0.hdslb.com/bfs/album/cc522e66102cff6248b15ecb69b0ffd28509f99e.png" alt=""></p>
+<h3 id="19MB-大图">19MB 大图</h3>
+<p><img src="https://i0.hdslb.com/bfs/album/8d4ab13c44566f7627b3e6d107c73bba8d0877ce.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>站务</category>
+      </categories>
+      <tags>
+        <tag>站务</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>感谢</title>
+    <url>/2022/12/ab7653f8.html</url>
+    <content><![CDATA[<p>感谢大佬们</p>
+<span id="more"></span>
+<h3 id="在此感谢（排名不分前后）：">在此感谢（排名不分前后）：</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Name</th>
+<th style="text-align:left">Thanks For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="https://github.com/argvchs">Argvchs</a></td>
+<td style="text-align:left">开发了 <a href="https://github.com/argvchs/hexo-theme-particlex">ParticleX</a> 主题，并且对网站的搭建提供了细致入微的帮助</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://github.com/EmptyDreams/">EmptyDreams（空梦）</a></td>
+<td style="text-align:left">开发了 <a href="https://github.com/EmptyDreams/hexo-swpp">hexo-swpp</a> ，并且对 ServiceWorker 的搭建提供了细致入微的的帮助</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://github.com/jerryc127/hexo-theme-butterfly/graphs/contributors">Butterfly 的开发者们</a></td>
+<td style="text-align:left">开发了 <a href="https://github.com/jerryc127/hexo-theme-butterfly/">Butterfly</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://github.com/imaegoo/twikoo/graphs/contributors">Twikoo 的开发者们</a></td>
+<td style="text-align:left">开发了 <a href="https://github.com/imaegoo/twikoo">Twikoo</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="http://akilar.top/">Akilar（店长）</a></td>
+<td style="text-align:left">给出了 Twikoo 美化的 CSS</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://github.com/2X-ercha">noionion（贰猹）</a></td>
+<td style="text-align:left">提供了 <a href="https://github.com/2X-ercha/Twikoo-Magic">Twikoo 表情包</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://github.com/lxgw">lxgw</a>、<a href="https://github.com/chawyehsu">chawyehsu</a>、<a href="https://github.com/be5invis/">be5invis</a></td>
+<td style="text-align:left">开发了 <a href="https://github.com/lxgw/LxgwWenKai">LxgwWenKai</a>、<a href="https://github.com/chawyehsu/lxgw-wenkai-webfont">lxgw-wenkai-webfont</a>、<a href="https://github.com/be5invis/Sarasa-Gothic">更纱黑体</a></td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://github.com/Yuzi0201">Yuzi0201</a></td>
+<td style="text-align:left">让 <a href="https://github.com/walinejs/waline">Waline</a> 的部署变得更简单</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://daiyu-233.top/">呆鱼</a> 、<a href="https://github.com/xlzy520">xlzy520</a>、<a href="https://github.com/picgo">PicGo</a></td>
+<td style="text-align:left">提供了图床解决方案，解决了图片难题</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://nic.eu.org/">EU.ORG</a>、<a href="http://xszcd.top/">小沈公益域名</a>、<a href="https://www.freenom.com/">Freenom</a></td>
+<td style="text-align:left">提供免费域名</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://github.com/">Github</a> 、<a href="https://vercel.com/">Vercel</a> 、<a href="https://www.netlify.com/">Netlify</a>、<a href="https://cloudflare.net/home/default.aspx">Cloudflare</a>、<a href="https://railway.app/s">RailWay</a></td>
+<td style="text-align:left">提供了网页托管服务</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://cloudflare.net/home/default.aspx">Cloudflare</a></td>
+<td style="text-align:left">提供免费 DNS 解析</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://www.jsdelivr.com/">jsDelivr</a>、<a href="http://www.staticfile.org/">Staticfile CDN</a>、<a href="https://www.bootcdn.cn/">BootCDN</a>、<a href="https://zzko.cn/">鹰瑶的静态文件托管站</a></td>
+<td style="text-align:left">提供 CDN</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://github.com/docmirror/dev-sidecar">Dev Sidecar</a></td>
+<td style="text-align:left">方便了 Github 的使用</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+      <categories>
+        <category>站务</category>
+      </categories>
+      <tags>
+        <tag>站务</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>物理经典习题（1）</title>
+    <url>/2022/12/c980f420.html</url>
+    <content><![CDATA[<p>第一期来力！！！</p>
+<span id="more"></span>
+<h2 id="1-新型材料的浮力">1. 新型材料的浮力</h2>
+<p>注意看，这个男人叫 Lynx</p>
+<h3 id="推导背景（特别扯）">推导背景（特别扯）</h3>
+<p>Lynx 开发了一种新材料—— <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mi>N</mi><mi>O</mi></mrow><annotation encoding="application/x-tex">ANO</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mord mathnormal" style="margin-right:0.02778em;">NO</span></span></span></span> ，这种新材料的密度极低，仅为 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><msup><mn>0</mn><mrow><mo>−</mo><mn>100</mn></mrow></msup><mi>k</mi><mi>g</mi><mi mathvariant="normal">/</mi><msup><mi>m</mi><mn>3</mn></msup></mrow><annotation encoding="application/x-tex">10^{-100} kg/m^3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">100</span></span></span></span></span></span></span></span></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord">/</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span> ！为了方便计算，直接取零得了。众所周知，我们之所以可以乘着热气球飞向蓝天，就是因为热空气产生的浮力大于热气球和物品的重力。 Lynx 想知道在理想的情况下最少需要多少立方米的 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mi>N</mi><mi>O</mi></mrow><annotation encoding="application/x-tex">ANO</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mord mathnormal" style="margin-right:0.02778em;">NO</span></span></span></span> 才能产生等于 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1.5</mn></mrow><annotation encoding="application/x-tex">1.5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1.5</span></span></span></span> 倍 Lynx 的重力的浮力。</p>
+<h3 id="数值">数值</h3>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mi>N</mi><mi>O</mi></mrow><annotation encoding="application/x-tex">ANO</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mord mathnormal" style="margin-right:0.02778em;">NO</span></span></span></span> 的密度 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>ρ</mi><mrow><mi>A</mi><mi>N</mi><mi>O</mi></mrow></msub><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">\rho_{ANO}=0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal">ρ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">A</span><span class="mord mathnormal mtight" style="margin-right:0.02778em;">NO</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0</span></span></span></span></p>
+<p>重力加速度 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi><mo>=</mo><mn>9.8</mn><mi>N</mi><mi mathvariant="normal">/</mi><mi>k</mi><mi>g</mi></mrow><annotation encoding="application/x-tex">g=9.8N/kg</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">9.8</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span></span></span></span></p>
+<p>Lynx 的体重 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>m</mi><mrow><mi>L</mi><mi>y</mi><mi>n</mi><mi>x</mi></mrow></msub><mo>=</mo><mn>100</mn><mi>k</mi><mi>g</mi></mrow><annotation encoding="application/x-tex">m_{Lynx}=100kg</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7167em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">L</span><span class="mord mathnormal mtight" style="margin-right:0.03588em;">y</span><span class="mord mathnormal mtight">n</span><span class="mord mathnormal mtight">x</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">100</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span></span></span></span></p>
+<p>空气的密度 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>ρ</mi><mrow><mi>A</mi><mi>i</mi><mi>r</mi></mrow></msub><mo>=</mo><mn>1.29</mn><mi mathvariant="normal">/</mi><msup><mi>m</mi><mn>3</mn></msup></mrow><annotation encoding="application/x-tex">\rho_{Air}=1.29/m^3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal">ρ</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">A</span><span class="mord mathnormal mtight">i</span><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">1.29/</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></p>
+<h3 id="推导过程">推导过程</h3>
+<p>Lynx 所受的重力 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>G</mi><mrow><mi>L</mi><mi>y</mi><mi>n</mi><mi>x</mi></mrow></msub><mo>=</mo><mi>m</mi><mi>g</mi><mo>=</mo><mn>100</mn><mi>k</mi><mi>g</mi><mo>⋅</mo><mn>9.8</mn><mi>N</mi><mi mathvariant="normal">/</mi><mi>k</mi><mi>g</mi><mo>=</mo><mn>980</mn><mi>N</mi></mrow><annotation encoding="application/x-tex">G_{Lynx}=mg=100kg\cdot 9.8N/kg=980N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9694em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">L</span><span class="mord mathnormal mtight" style="margin-right:0.03588em;">y</span><span class="mord mathnormal mtight">n</span><span class="mord mathnormal mtight">x</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">m</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">100</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">9.8</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">980</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span></span></span></span></p>
+<p>所需的浮力 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo>=</mo><mn>1.5</mn><mo>⋅</mo><msub><mi>G</mi><mrow><mi>L</mi><mi>y</mi><mi>n</mi><mi>x</mi></mrow></msub><mo>=</mo><mn>1470</mn><mi>N</mi></mrow><annotation encoding="application/x-tex">F=1.5\cdot G_{Lynx}=1470N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.9694em;vertical-align:-0.2861em;"></span><span class="mord"><span class="mord mathnormal">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">L</span><span class="mord mathnormal mtight" style="margin-right:0.03588em;">y</span><span class="mord mathnormal mtight">n</span><span class="mord mathnormal mtight">x</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.2861em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">1470</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span></span></span></span></p>
+<p>排开的空气的质量 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>m</mi><mrow><mi>A</mi><mi>i</mi><mi>r</mi></mrow></msub><mo>=</mo><mi>F</mi><mi mathvariant="normal">/</mi><mi>g</mi><mo>=</mo><mn>1470</mn><mi>N</mi><mi mathvariant="normal">/</mi><mn>9.8</mn><mi>N</mi><mi mathvariant="normal">/</mi><mi>k</mi><mi>g</mi><mo>=</mo><mn>150</mn><mi>k</mi><mi>g</mi></mrow><annotation encoding="application/x-tex">m_{Air}=F/g=1470N/9.8N/kg=150kg</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">A</span><span class="mord mathnormal mtight">i</span><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">1470</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord">/9.8</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">150</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span></span></span></span></p>
+<p>排开的空气的体积 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>v</mi><mrow><mi>A</mi><mi>i</mi><mi>r</mi></mrow></msub><mo>=</mo><msub><mi>m</mi><mrow><mi>A</mi><mi>i</mi><mi>r</mi></mrow></msub><mi mathvariant="normal">/</mi><msub><mi>p</mi><mrow><mi>A</mi><mi>i</mi><mi>r</mi></mrow></msub><mo>=</mo><mn>150</mn><mi>k</mi><mi>g</mi><mi mathvariant="normal">/</mi><mn>1.29</mn><mi>k</mi><mi>g</mi><mi mathvariant="normal">/</mi><msup><mi>m</mi><mn>3</mn></msup><mo>≈</mo><mn>116.27907</mn><msup><mi>m</mi><mn>3</mn></msup></mrow><annotation encoding="application/x-tex">v_{Air}=m_{Air}/p_{Air}=150kg/1.29kg/m^3\approx 116.27907m^3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5806em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:-0.0359em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">A</span><span class="mord mathnormal mtight">i</span><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">A</span><span class="mord mathnormal mtight">i</span><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">/</span><span class="mord"><span class="mord mathnormal">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3283em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">A</span><span class="mord mathnormal mtight">i</span><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">150</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord">/1.29</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord">/</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">≈</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">116.27907</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span></span></span></span></p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∵</mo><mn>4.5</mn><mo>⋅</mo><mn>4.5</mn><mo>⋅</mo><mn>5.75</mn><mo>=</mo><mn>116.4375</mn></mrow><annotation encoding="application/x-tex">\because 4.5\cdot 4.5\cdot 5.75=116.4375</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6922em;"></span><span class="mrel amsrm">∵</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">4.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">4.5</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">5.75</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">116.4375</span></span></span></span></p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>∴</mo><mn>4.5</mn><mi>m</mi><mo>⋅</mo><mn>4.5</mn><mi>m</mi><mo>⋅</mo><mn>5.75</mn><mi>m</mi></mrow><annotation encoding="application/x-tex">\therefore 4.5m\cdot 4.5m\cdot 5.75m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6922em;"></span><span class="mrel amsrm">∴</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">4.5</span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">4.5</span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">5.75</span><span class="mord mathnormal">m</span></span></span></span> 的一块就够了</p>
+<h2 id="2-人对地面的压力及其形象化描述">2. 人对地面的压力及其形象化描述</h2>
+<h3 id="数值-2">数值</h3>
+<p>人体质量 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mo>=</mo><mn>60</mn><mi>k</mi><mi>g</mi></mrow><annotation encoding="application/x-tex">m=60kg</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">60</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span></span></span></span></p>
+<p>重力加速度 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>g</mi><mo>=</mo><mn>9.8</mn><mi>N</mi><mi mathvariant="normal">/</mi><mi>k</mi><mi>g</mi></mrow><annotation encoding="application/x-tex">g=9.8N/kg</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">9.8</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span></span></span></span></p>
+<p>人的脚的面积 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>s</mi><mo>=</mo><mi>a</mi><mo>⋅</mo><mi>b</mi><mo>⋅</mo><mn>2</mn><mo>=</mo><mn>0.25</mn><mo>⋅</mo><mn>0.1</mn><mo>⋅</mo><mn>2</mn><mo>=</mo><mn>0.05</mn><msup><mi>m</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">s=a\cdot b\cdot 2=0.25\cdot 0.1\cdot 2=0.05m^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">s</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.4445em;"></span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">b</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.25</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">0.1</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">0.05</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></p>
+<h3 id="推导">推导</h3>
+<p>由 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mo>=</mo><mi>m</mi><mi>g</mi></mrow><annotation encoding="application/x-tex">G=mg</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">G</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">m</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span></span></span></span> 结合实际情况得：</p>
+<p>人体对地面的力 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>F</mi><mo>=</mo><mi>G</mi><mo>=</mo><mi>m</mi><mi>g</mi><mo>=</mo><mn>60</mn><mi>k</mi><mi>g</mi><mo>⋅</mo><mn>9.8</mn><mi>N</mi><mi mathvariant="normal">/</mi><mi>k</mi><mi>g</mi><mo>=</mo><mn>588</mn><mi>N</mi></mrow><annotation encoding="application/x-tex">F=G=mg=60kg\cdot 9.8N/kg=588N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">G</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">m</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord">60</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">9.8</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">588</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span></span></span></span></p>
+<p>由 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>=</mo><mi>F</mi><mi mathvariant="normal">/</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">p=F/s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord">/</span><span class="mord mathnormal">s</span></span></span></span> 得：</p>
+<p>人体对地面的压力 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>=</mo><mi>F</mi><mi mathvariant="normal">/</mi><mi>s</mi><mo>=</mo><mn>588</mn><mi>N</mi><mi mathvariant="normal">/</mi><mn>0.05</mn><msup><mi>m</mi><mn>2</mn></msup><mo>=</mo><mn>11760</mn><mi>P</mi><mi>a</mi></mrow><annotation encoding="application/x-tex">p=F/s=588N/0.05m^2=11760Pa</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">F</span><span class="mord">/</span><span class="mord mathnormal">s</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">588</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord">/0.05</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">11760</span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mord mathnormal">a</span></span></span></span></p>
+<h3 id="形象化描述推导">形象化描述推导</h3>
+<p>换算单位得： <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>p</mi><mo>=</mo><mn>11760</mn><mi>P</mi><mi>a</mi><mo>=</mo><mn>11760</mn><mi>N</mi><mi mathvariant="normal">/</mi><msup><mi>m</mi><mn>2</mn></msup><mo>=</mo><mo stretchy="false">(</mo><mn>11760</mn><mi mathvariant="normal">/</mi><mn>10000</mn><mo stretchy="false">)</mo><mi>N</mi><mi mathvariant="normal">/</mi><mi>c</mi><msup><mi>m</mi><mn>2</mn></msup><mo>=</mo><mn>1.176</mn><mi>N</mi><mi mathvariant="normal">/</mi><mi>c</mi><msup><mi>m</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">p=11760Pa=11760N/m^2 = (11760/10000)N/cm^2 = 1.176N/cm^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">p</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord">11760</span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span><span class="mord mathnormal">a</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">11760</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord">/</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord">11760/10000</span><span class="mclose">)</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord">/</span><span class="mord mathnormal">c</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">1.176</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord">/</span><span class="mord mathnormal">c</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></p>
+<p>由 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>G</mi><mo>=</mo><mi>m</mi><mi>g</mi></mrow><annotation encoding="application/x-tex">G=mg</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">G</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">m</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span></span></span></span> 得 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mo>=</mo><mfrac><mi>G</mi><mi>g</mi></mfrac></mrow><annotation encoding="application/x-tex">m=\frac{G}{g}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.3534em;vertical-align:-0.4811em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8723em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">g</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">G</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.4811em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> ，所以：</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1.176</mn><mi>N</mi><mi mathvariant="normal">/</mi><mi>c</mi><msup><mi>m</mi><mn>2</mn></msup><mo>=</mo><mn>1.176</mn><mi>N</mi><mi mathvariant="normal">/</mi><mo stretchy="false">(</mo><mn>9.8</mn><mi>N</mi><mi mathvariant="normal">/</mi><mi>k</mi><mi>g</mi><mo stretchy="false">)</mo><mi mathvariant="normal">/</mi><mi>c</mi><msup><mi>m</mi><mn>2</mn></msup><mo>=</mo><mn>0.12</mn><mi>k</mi><mi>g</mi><mi mathvariant="normal">/</mi><msup><mi>m</mi><mn>2</mn></msup><mo>=</mo><mn>120</mn><mi>g</mi><mi mathvariant="normal">/</mi><mi>c</mi><msup><mi>m</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">1.176N/cm^2 = 1.176N/(9.8N/kg)/cm^2 = 0.12kg/m^2 = 120g/cm^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">1.176</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord">/</span><span class="mord mathnormal">c</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">1.176</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord">/</span><span class="mopen">(</span><span class="mord">9.8</span><span class="mord mathnormal" style="margin-right:0.10903em;">N</span><span class="mord">/</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mclose">)</span><span class="mord">/</span><span class="mord mathnormal">c</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">0.12</span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord">/</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">120</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord">/</span><span class="mord mathnormal">c</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></p>
+<h4 id="铁条">铁条</h4>
+<p>由 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ρ</mi><mo>=</mo><mfrac><mi>m</mi><mi>v</mi></mfrac></mrow><annotation encoding="application/x-tex">\rho=\frac{m}{v}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">ρ</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0404em;vertical-align:-0.345em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.6954em;"><span style="top:-2.655em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">v</span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.394em;"><span class="pstrut" style="height:3em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">m</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.345em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span> 得 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mo>=</mo><mi>ρ</mi><mi>v</mi></mrow><annotation encoding="application/x-tex">m=\rho v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">ρ</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span></span></span></span>，所以：</p>
+<p><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>m</mi><mo>=</mo><mi>ρ</mi><mi>v</mi><mo>=</mo><mn>7.8</mn><mi>g</mi><mi mathvariant="normal">/</mi><mi>c</mi><msup><mi>m</mi><mn>3</mn></msup><mo>⋅</mo><mn>15.38</mn><mi>c</mi><msup><mi>m</mi><mn>3</mn></msup><mo>=</mo><mn>7.8</mn><mi>g</mi><mi mathvariant="normal">/</mi><mi>c</mi><msup><mi>m</mi><mn>3</mn></msup><mo>⋅</mo><mn>1</mn><mi>c</mi><mi>m</mi><mo>⋅</mo><mn>1</mn><mi>c</mi><mi>m</mi><mo>⋅</mo><mn>15</mn><mi>c</mi><mi>m</mi></mrow><annotation encoding="application/x-tex">m=\rho v=7.8g/cm^3\cdot 15.38cm^3 = 7.8g/cm^3\cdot 1cm\cdot 1cm\cdot 15cm</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal">ρ</span><span class="mord mathnormal" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">7.8</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord">/</span><span class="mord mathnormal">c</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">15.38</span><span class="mord mathnormal">c</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord">7.8</span><span class="mord mathnormal" style="margin-right:0.03588em;">g</span><span class="mord">/</span><span class="mord mathnormal">c</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">3</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mord mathnormal">c</span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mord mathnormal">c</span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">15</span><span class="mord mathnormal">c</span><span class="mord mathnormal">m</span></span></span></span></p>
+<p>想想你手中拿着一块 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mi>c</mi><mi>m</mi><mo>⋅</mo><mn>1</mn><mi>c</mi><mi>m</mi><mo>⋅</mo><mn>15</mn><mi>c</mi><mi>m</mi></mrow><annotation encoding="application/x-tex">1cm\cdot 1cm\cdot 15cm</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mord mathnormal">c</span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mord mathnormal">c</span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">15</span><span class="mord mathnormal">c</span><span class="mord mathnormal">m</span></span></span></span> 的铁块并且 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mi>c</mi><mi>m</mi><mo>⋅</mo><mn>1</mn><mi>c</mi><mi>m</mi></mrow><annotation encoding="application/x-tex">1cm\cdot 1cm</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mord mathnormal">c</span><span class="mord mathnormal">m</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">⋅</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6444em;"></span><span class="mord">1</span><span class="mord mathnormal">c</span><span class="mord mathnormal">m</span></span></span></span> 的面压在你手上</p>
+<h4 id="生活物品">生活物品</h4>
+<p>差不多两个鸡蛋加三五个樱桃压在 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>1</mn><mi>c</mi><msup><mi>m</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">1cm^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord mathnormal">c</span><span class="mord"><span class="mord mathnormal">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> 的面积上</p>
+<p><img src="https://i0.hdslb.com/bfs/album/117a5f5e1b52235222a4d7aa38404595a27422ba.png" alt=""></p>
+]]></content>
+      <categories>
+        <category>物理</category>
+      </categories>
+      <tags>
+        <tag>物理</tag>
+        <tag>推导</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>老师你好</title>
+    <url>/2023/01/64415018.html</url>
+    <content><![CDATA[<p>B 站上挺火的一首歌。我看没有“未经作者授权，禁止转载”的标识，就把歌词撸了出来分享给大家。</p>
+<span id="more"></span>
+<p>链接是必须滴 --&gt; <a href="https://www.bilibili.com/video/BV1ws411r7hJ/">https://www.bilibili.com/video/BV1ws411r7hJ/</a></p>
+<p>老师你好——哎</p>
+<p>有个问题——你问吧</p>
+<p>你惩罚我可以，能不能别找我爸比——不行</p>
+<p>抄个作业</p>
+<p>这种事情</p>
+<p>下次我改，你让我坐下行不行——你还有理了</p>
+<p>你批评我也不是不可以</p>
+<p>请归还我的手机——等你家长来领吧</p>
+<p>我逃了课是因为我真的病了</p>
+<p>你还压堂压到上课我要上厕所</p>
+<p>你说我是你教过学生里最差的</p>
+<p>我不信，哦哦，你跟谁都这么说</p>
+<p>课外读物积极阅读我正看呢</p>
+<p>你走过来二话不说就拿走了</p>
+<p>你不理会在你后面怨恨的我</p>
+<p>我的柯南正版，花了半年零花钱</p>
+<p>接招吧，竜神の剣を喰らえ</p>
+<hr>
+<p>老师你好——又是你啊</p>
+<p>有个问题——什么问题啊</p>
+<p>我想问为啥你总跟我过不去——怎么跟你过不去了</p>
+<p>我唱歌好——有用吗</p>
+<p>长相帅气——长相能当饭吃吗</p>
+<p>为何我要一直坐教室角落里——因为你个高啊</p>
+<p>你总骗我作业不算太多——是不多啊</p>
+<p>怎么算多告诉我——你猜</p>
+<p>熟读课文背诵全文一背就一车</p>
+<p>到第二天还要占用我的体育课</p>
+<p>你总说体育老师他生病了</p>
+<p>我不信，刚才</p>
+<p>还给隔壁班上课</p>
+<p>你告诉我我的毛病严重偏科</p>
+<p>数学不好每次考试都不及格</p>
+<p>我会跳舞会打篮球特长很多</p>
+<p>弹琴唱歌</p>
+<p>写首歌曲来骂你</p>
+<p>因为老子很生气</p>
+<hr>
+<p>刚要顶嘴忽然感觉有人拍我——哎，醒醒啊，搬砖了</p>
+<p>睁开眼睛原来都是一场梦——干什么呢你啊</p>
+<p>老板问我上班时间你睡什么——你这态度有问题啊</p>
+<p>没什么，因为</p>
+<p><strong>老子昨晚加班了</strong></p>
+<p>他跟我说办公室要有良好风气</p>
+<p>我心里想你没熬夜就只会 BB</p>
+<p>转头望去隔壁学校的校园里</p>
+<p>传来欢声笑语，我却再也回不去</p>
+<p>毕业之后老师的话常想起</p>
+<p>也知道了是关心你才会说你</p>
+<p>社会冷漠除了利益谁还会理你</p>
+<p>如果时光倒流，我想我不会怪你</p>
+<p>怪我年少太 2B</p>
+<p>教师节祝福送给您</p>
+]]></content>
+      <categories>
+        <category>音乐</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
+        <tag>歌词</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在5分钟内让VS Code可以运行代码</title>
+    <url>/2022/12/748f9323.html</url>
+    <content><![CDATA[<p>相比于网上的其他教程，我更倾向于使用 <a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner">Code Runner</a> 。它易于上手 <s><em>（看下面那么水的方法就知道）</em></s>、通用性强，适合小白使用。</p>
+<span id="more"></span>
+<h2 id="安装运行环境">安装运行环境</h2>
+<h3 id="C-C-建议使用-MinGW">C/C++ 建议使用 MinGW</h3>
+<ol>
+<li>到 <s><a href="http://sourceforge.net/projects/mingw-w64/files/mingw-w64/">SourceForge</a></s> <a href="https://github.com/niXman/mingw-builds-binaries/releases">Github</a> 上下载最新的 MinGW-W64</li>
+<li>放到没有中文、空格的目录</li>
+<li>将 mingw-w64\bin 添加到 Path</li>
+<li>回到 VSCode，安装 <a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner">Code Runner</a></li>
+<li>随便写个 Hello World</li>
+<li>按下 Ctrl+Alt+N</li>
+</ol>
+<h3 id="Go-Python">Go/Python</h3>
+<ol>
+<li>到官网下载合适的安装包并安装</li>
+<li>确认已经添加到 Path</li>
+<li>回到 VSCode，安装 <a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner">Code Runner</a></li>
+<li>随便写个 Hello World</li>
+<li>按下 Ctrl+Alt+N</li>
+</ol>
+<p><s><em>不水了不水了</em></s></p>
+<h2 id="解决不能输入的问题">解决不能输入的问题</h2>
+<p>很多情况下我们还要多次输入测试数据（尤其是 OIer ），但……根本输不进去。解决方法是：</p>
+<ol>
+<li>Ctrl+, 并搜索 Code Runner</li>
+<li>找到 <strong>Code-runner: Run ln Terminal</strong> ，打开它</li>
+</ol>
+]]></content>
+      <categories>
+        <category>工具</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>工具</tag>
+      </tags>
+  </entry>
+</search>
